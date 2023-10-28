@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Conversion App</string>
+    <string name="conversiondisplay">This App converts Liters to cups</string>
+    <string name="litres_input_display">Enter value in litres</string>
+</resources>

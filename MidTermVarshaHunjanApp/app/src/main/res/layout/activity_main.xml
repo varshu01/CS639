@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/appnametext"
+        android:padding="15dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/appname_background"
+    />
+    <ImageView
+        android:padding="15dp"
+        android:id="@+id/cups_image"
+        android:src="@drawable/cup_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:padding="15dp"
+
+        android:id="@+id/conversion_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conversiondisplay"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/litres_input_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/litres_input_display"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/conversion_display"
+        tools:layout_editor_absoluteX="146dp" />
+
+    <EditText
+        android:padding="15dp"
+
+        android:id="@+id/literInput"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter number"
+        app:layout_constraintTop_toBottomOf="@+id/litres_input_display"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:padding="15dp"
+
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/literInput"
+        android:text="Convert to Cups"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:padding="15dp"
+
+        android:id="@+id/textview_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="The result of above conversion is:"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/convertButton"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/textview_result"
+        android:id="@+id/resultText"
+        android:padding="15dp"
+
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:padding="15dp"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/name_background"
+        android:text="An app by Varsha Hunjan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
