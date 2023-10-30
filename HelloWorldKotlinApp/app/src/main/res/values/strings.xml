@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HelloWorldKotlinApp</string>
+    <string name="my_name">VarshaHunjan</string>
+    <string name="Hello">Hello World</string>
+    <string name="click_me_button">Click me for text animation!</string>
+</resources>
