@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/size_item1"
+        android:title="Shirt" />
+    <item
+        android:id="@+id/size_item2"
+        android:title="Pants" />
+    <item
+        android:id="@+id/size_item3"
+        android:title="Dress" />
+    <item
+        android:id="@+id/size_item4"
+        android:title="Coat" />
+    <item
+        android:id="@+id/size_item5"
+        android:title="Blazer" />
+    <item
+        android:id="@+id/size_item6"
+        android:title="Shoes" />
+
+</menu>

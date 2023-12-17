@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name"><b>PrimeShop</b></string>
+    <string name="discover_b_primeshop_b"><b>PrimeShop</b> </string>
+    <string name="clear_cart">Clear Cart</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="UI_color">#000000</color>
+    <color name="UI_color2">#f9f9f9</color>
+    <color name="UI_color3">#E0F7FA</color>
+    <color name="Text_Color">#000000</color>
+    <color name="Text_Color2">#5b708d</color>
+
+    <color name="Price">#D32F2F</color>
+
+    <color name="Background_color">#E8EAF6</color>
+
+
+
+</resources>

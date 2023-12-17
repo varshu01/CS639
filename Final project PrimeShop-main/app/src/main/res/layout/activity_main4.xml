@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <TextView
+        android:id="@+id/brandName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/sizename"
+        android:textColor="@color/Text_Color"/>
+
+    <TextView
+        android:id="@+id/sizename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sizeImage"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Size Chart"
+        android:textStyle="bold"
+        android:textColor="@color/Text_Color"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/sizeImage"
+        android:layout_width="400dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagechart" />
+
+
+
+
+</RelativeLayout>

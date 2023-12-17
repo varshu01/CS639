@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/size_item1"
+        android:title="size - xs" />
+    <item
+        android:id="@+id/size_item2"
+        android:title="size - s" />
+    <item
+        android:id="@+id/size_item3"
+        android:title="size - m" />
+    <item
+        android:id="@+id/size_item4"
+        android:title="size - l" />
+    <item
+        android:id="@+id/size_item5"
+        android:title="size - xl" />
+</menu>
